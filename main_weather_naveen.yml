@@ -27,6 +27,6 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: YOUR_WEBAPP_NAME  # replace with your Azure Web App name
+          app-name: weather-naveen  # replace with your Azure Web App name
           publish-profile: ${{ secrets.AzureAppService_PublishProfile }}
           package: ./build
